@@ -1,0 +1,229 @@
+
+h1{
+    margin: 0;
+    text-align: center;
+    background-color: #04244c;
+    text-align: center;
+    color:white;
+    padding: 20px;
+   
+}
+.Cabeza{
+    width: 20%;
+    height: 40%;
+
+
+}
+body{
+    background-image:url(Cordoba\ -\ img/fondo.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fffdfd;
+}
+
+
+
+
+
+
+.menuCSS3 ul {
+  display: flex;
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+}
+.menuCSS3 a {
+  display: inline-block;
+  width: 217px;
+  height: 50px;
+  margin: 0;
+  background-color: #105cd6;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+}
+.menuCSS3 a:hover {
+  background-color: #65c0ed;
+}
+.menuCSS3 ul li ul {
+  display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+  display: inline-block;
+}
+
+
+
+
+<head>
+<style>
+    .slide {
+        position: relative;
+        box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+        margin-top: 10px;
+    }
+    .slide-inner {
+        position: relative;
+        overflow: hidden;
+        width left: 70%;
+        width right: 70%;
+        height:750px;
+    }
+    .slide-open:checked + .slide-item {
+        position: static;
+        opacity: 100;
+    }
+    .slide-item {
+        position: absolute;
+        opacity: 0;
+        -webkit-transition: opacity 0.6s ease-out;
+        transition: opacity 0.6s ease-out;
+        background-color: #ffffff;
+    }
+    .slide-item img {
+        display: block;
+        height: auto;
+        max-width: 100%;
+        margin-left:0;
+    }
+    .slide-control {
+        background: rgba(0, 0, 0, 0.28);
+        border-radius: 50%;
+        color: #000000;
+        cursor: pointer;
+        display: none;
+        font-size: 50px;
+        height: 50px;
+        line-height: 35px;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translate(0, -50%);
+        cursor: pointer;
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        text-align: center;
+        width: 50px;
+        z-index: 10;
+    }
+    .slide-control.prev {
+        left: 2%;
+    }
+    .slide-control.next {
+        right: 2%;
+    }
+    .slide-control:hover {
+        background: rgba(8, 181, 234, 0.8);
+        color: #27a9ff;
+    }
+    #slide-1:checked ~ .control-1,
+    #slide-2:checked ~ .control-2,
+    #slide-3:checked ~ .control-3 {
+        display: block;
+    }
+    .slide-indicador {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        z-index:10;
+    }
+    .slide-indicador li {
+        display: inline-block;
+        margin: 0;
+    }
+    .slide-circulo {
+        color: #2ec5d3;
+        cursor: pointer;
+        display: block;
+        font-size: 35px;
+    }
+    .slide-circulo:hover {
+        color: #12a7be;
+    }
+    #slide-1:checked ~ .control-1 ~ .slide-indicador 
+         li:nth-child(1) .slide-circulo,
+    #slide-2:checked ~ .control-2 ~ .slide-indicador 
+          li:nth-child(2) .slide-circulo,
+    #slide-3:checked ~ .control-3 ~ .slide-indicador 
+          li:nth-child(3) .slide-circulo {
+        color: #428bca;
+    }
+    #titulo {
+        width: 100%;
+        position: absolute;
+        padding: 0px;
+        margin: 0px auto;
+        text-align: center;
+        font-size: 27px;
+        color: rgb(20, 140, 225);
+        font-family: 'Open Sans', sans-serif;
+        z-index: 9999;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), 
+             -1px 0px 2px rgba(255, 255, 255, 0);
+    }
+</style>
+</head>
+
+
+
+
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.625rem 1.875rem;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    text-size-adjust: 1px;
+}
+
+.btn-primary {
+
+    padding: 10px;
+    background: #d0d065;
+    border-color: #000000;
+    color: #000;
+
+}
+
+.btn-primary-1 {
+
+    padding: 10px;
+    background: #6765d0;
+    border-color: #000000;
+    color: #ffffff;
+
+}
+
+.btn-primary-2 {
+
+    padding: 10px;
+    background: #9965d0;
+    border-color: #000000;
+    color: #ffffff;
+
+}
+
+
+.barrafinal h3{
+    text-align: center;
+    background-color: #04244c;
+    margin: 0;
+    color:white;
+    padding: 20px;
+   
+}
